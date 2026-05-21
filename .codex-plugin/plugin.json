@@ -1,0 +1,30 @@
+{
+  "name": "spike",
+  "version": "0.1.0",
+  "description": "Run timeboxed disposable experiments to de-risk planning and implementation.",
+  "author": {
+    "name": "cbzehner",
+    "email": "chris@cbzehner.com",
+    "url": "https://github.com/cbzehner"
+  },
+  "homepage": "https://github.com/cbzehner/skill-spike",
+  "repository": "https://github.com/cbzehner/skill-spike",
+  "license": "MIT",
+  "keywords": ["spike", "prototype", "feasibility", "experiment", "planning"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Spike",
+    "shortDescription": "Disposable experiments before planning.",
+    "longDescription": "Runs timeboxed throwaway experiments to answer feasibility, integration, API, performance, or UI approach questions before production planning or implementation.",
+    "developerName": "cbzehner",
+    "category": "Planning",
+    "capabilities": ["Plan", "Test"],
+    "websiteURL": "https://github.com/cbzehner/skill-spike",
+    "defaultPrompt": [
+      "Spike whether this approach works before we plan it.",
+      "Run a throwaway prototype to de-risk this integration.",
+      "I don't know enough to plan this yet; spike it first."
+    ],
+    "brandColor": "#6B5C8A"
+  }
+}
