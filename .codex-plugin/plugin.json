@@ -1,30 +1,28 @@
 {
   "name": "spike",
-  "version": "0.1.0",
-  "description": "Run timeboxed disposable experiments to de-risk planning and implementation.",
+  "version": "1.0.0",
+  "description": "Run a timeboxed disposable experiment before planning or implementation when feasibility, library behavior, API shape, performance, UI approach, or an integration risk is unknown. Use for throwaway prototypes, \"would this even work?\", \"I don't know enough to plan\", or de-risking without committing code.",
   "author": {
     "name": "cbzehner",
-    "email": "chris@cbzehner.com",
     "url": "https://github.com/cbzehner"
   },
   "homepage": "https://github.com/cbzehner/skill-spike",
   "repository": "https://github.com/cbzehner/skill-spike",
   "license": "MIT",
-  "keywords": ["spike", "prototype", "feasibility", "experiment", "planning"],
+  "keywords": [
+    "spike",
+    "agent-skill"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Spike",
-    "shortDescription": "Disposable experiments before planning.",
-    "longDescription": "Runs timeboxed throwaway experiments to answer feasibility, integration, API, performance, or UI approach questions before production planning or implementation.",
+    "shortDescription": "Run a timeboxed disposable experiment before planning or implementation when feasibility, library behavior, API shape...",
+    "longDescription": "Run a timeboxed disposable experiment before planning or implementation when feasibility, library behavior, API shape, performance, UI approach, or an integration risk is unknown. Use for throwaway prototypes, \"would this even work?\", \"I don't know enough to plan\", or de-risking without committing code.",
     "developerName": "cbzehner",
-    "category": "Planning",
-    "capabilities": ["Plan", "Test"],
-    "websiteURL": "https://github.com/cbzehner/skill-spike",
-    "defaultPrompt": [
-      "Spike whether this approach works before we plan it.",
-      "Run a throwaway prototype to de-risk this integration.",
-      "I don't know enough to plan this yet; spike it first."
+    "category": "Development",
+    "capabilities": [
+      "Development"
     ],
-    "brandColor": "#6B5C8A"
+    "websiteURL": "https://github.com/cbzehner/skill-spike"
   }
 }

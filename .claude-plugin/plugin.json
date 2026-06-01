@@ -1,10 +1,10 @@
 {
   "name": "spike",
-  "description": "Run timeboxed disposable experiments to de-risk planning and implementation.",
-  "version": "0.1.0",
+  "description": "Run a timeboxed disposable experiment before planning or implementation when feasibility, library behavior, API shape, performance, UI approach, or an integration risk is unknown. Use for throwaway prototypes, \"would this even work?\", \"I don't know enough to plan\", or de-risking without committing code.",
+  "version": "1.0.0",
   "author": {
     "name": "cbzehner",
-    "email": "chris@cbzehner.com"
+    "url": "https://github.com/cbzehner"
   },
   "repository": "https://github.com/cbzehner/skill-spike",
   "license": "MIT"
