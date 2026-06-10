@@ -1,3 +1,5 @@
+> **Moved:** this skill now lives in [cbzehner/skills](https://github.com/cbzehner/skills) under `skills/spike/`. This repo is archived and read-only.
+
 # Spike
 
 Run a disposable experiment before committing to a plan. The skill keeps uncertainty small by testing API shape, library behavior, performance, UI ideas, or integration risk directly.
